@@ -1,7 +1,9 @@
 public class Adder {
-    protected int a;
-    protected int b;
 
 
+    public int add(int a, int b){
+        int result = a + b;
+        return result;
+    }
 }
 
